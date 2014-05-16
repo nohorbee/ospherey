@@ -1,0 +1,37 @@
+#%RAML 0.8
+title: "Ospherey: Sphero RESTful API implemented with RAML and Osprey"
+baseUri: http://localhost:3000/api
+mediaType: application/json
+/color:
+  get:
+  put:
+    body:
+      application/json:
+        example: |
+          { "color": "0xFF0000" }
+/motion:
+  put:
+    body:
+      application/json:
+        example: |
+          { "heading": 0, "speed": 50, "state": 1 }
+/backLed:
+  put:
+    body:
+      application/json:
+        example: |
+          { "value": 200 }
+        schema: |
+          {
+            "type": "object",
+            "$schema": "http://json-schema.org/draft-03/schema",
+            "id": "http://jsonschema.net",
+            "required":false,
+            "properties": {
+              "value": {
+                "type": "number",
+                "minimum":0,
+                "maximum": 255
+              }
+            }
+          }
