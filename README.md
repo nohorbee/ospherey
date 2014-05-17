@@ -11,6 +11,12 @@ Controlling [Sphero](http://www.gosphero.com/sphero-2-0/) with a REST API descri
 5. Open a browser and go to http://localhost:3000/api/console/
 6. Have fun (it's mandatory)!
 
+## Demo
+I promise better videos for the next time, but see it working:
+- [Ospherey - get color](https://www.youtube.com/watch?v=JDjXPEVWEbs)
+- [Ospherey - set color](https://www.youtube.com/watch?v=ZXIPgW_0k4w)
+- [Ospherey - go go go](https://www.youtube.com/watch?v=JN182CzBlXI) - **Definitively my favorite one**
+
 ## Backlog
 This was a quick and dirty development.
 It is my intention to add more features to the API, and document it better (add descriptions to the resources, methods and parameters).
